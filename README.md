@@ -25,7 +25,7 @@ This script processes the NarrativeQA dataset to benchmark Retrieval-Augmented G
 
 ## Output
 
-- `RAG Benchmark.xlsx`: Contains top 10 filtered QA pairs with context for RAG evaluation.
+- `RAG Benchmark.xlsx`: Contains the filtered QA pairs with context for RAG evaluation.
 
 ## Requirements
 
