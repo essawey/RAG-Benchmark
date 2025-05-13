@@ -70,7 +70,4 @@ df = (
       .reset_index(drop=True)
 )
 
-
-df[df.apply(lambda row: row['document'].count(row['rag_context'].strip()) == 1, axis=1)]
-
 df.to_excel('RAG Benchmark.xlsx')
