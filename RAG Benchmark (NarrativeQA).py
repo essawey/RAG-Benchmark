@@ -68,7 +68,6 @@ df = (
       .sort_values(by='answer_word_count', ascending=False)
       .drop(columns=['answer_word_count'])
       .reset_index(drop=True)
-      .head(10)
 )
 
 
